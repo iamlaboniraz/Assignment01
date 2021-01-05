@@ -1,0 +1,11 @@
+h1{
+    font-size:50px;
+}
+
+.coral-highlight{
+    color:Coral;
+}
+.button-link{
+    text-decoration:none;
+    background-image : linear-gradient
+}
