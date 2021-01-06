@@ -1,5 +1,19 @@
+body{
+    margin:0px;
+    font-family: 'Noto Sans', sans-serif;
+}
 h1{
     font-size:50px;
+}
+p{
+    color: dimgray;
+}
+section{
+    height:500px;
+    padding-bottom : 150px;
+}
+#middle{
+    text-align:center;
 }
 
 .coral-highlight{
@@ -7,5 +21,39 @@ h1{
 }
 .button-link{
     text-decoration:none;
-    background-image : linear-gradient
+    background-image : linear-gradient(45deg, lightSalmon, tomato);
+    background-color:orange;
+    color:white;
+    padding : 15px 40px;
+    border-radius : 5px;
+    fond-weight : 700;
+}
+.half-width{
+    width:36%;
+    float:left;
+    margin-left:5%;
+    padding-left:2%;
+}
+.half-width img{
+    width: 100%
+}
+.single-project{
+    width:25%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius : 10px;
+}
+.half-width single-project img{
+    width:70%
+}
+
+
+.working-project{
+    background-position:left;
+}
+#img-size{
+    border-radius:8px;
+    height:100px;
+}
+.working-project{
+    background-color: AliceBlue;
 }
